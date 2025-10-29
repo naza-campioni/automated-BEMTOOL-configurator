@@ -16,10 +16,12 @@ The app simplifies the creation of complex `.csv` input files by guiding users t
 
 ### Run locally
 pip install -r requirements.txt
+
 streamlit run config_file.py
 
 ### Run with Docker
 docker build -t docker-bmt .
+
 docker run -p 8501:8501 docker-bmt
 
 Then open http://localhost:8501 in your browser.
